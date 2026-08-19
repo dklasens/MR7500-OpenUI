@@ -1,4 +1,4 @@
-﻿# Netgear Nighthawk M7 Ultra (MR7500, Telstra) â€” Pentest / Root Access Notes
+﻿# Netgear Nighthawk M7 Ultra (MR7500, Telstra) Pentest / Root Access Notes
 
 Personal security research on an **owned** device: Netgear Nighthawk M7 Ultra mobile
 hotspot, Telstra (AU) variant. Goal: gain a **root shell / ADB** access.
