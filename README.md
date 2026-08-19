@@ -1,11 +1,34 @@
 ﻿# Netgear Nighthawk M7 Ultra (MR7500, Telstra) â€” Pentest / Root Access Notes
 
-Personal security research on a **owned** device: Netgear Nighthawk M7 Ultra mobile
-hotspot, Telstra (AU) variant. Goal: gain a root shell / ADB access.
+Personal security research on an **owned** device: Netgear Nighthawk M7 Ultra mobile
+hotspot, Telstra (AU) variant. Goal: gain a **root shell / ADB** access.
+
+### Gaining shell / ADB on the M7 Ultra — the short version
+
+The M7 Ultra (SDX75) is a Sierra-Wireless-derived OpenWrt device. There are three
+theoretical doors to a shell; Telstra has welded two of them shut in the running OS,
+while the third (the bootloader) turns out to be wide open:
+
+1. **Runtime AT / web enablers — BLOCKED.** The device exposes an unauthenticated AT
+   console (`telnet :5510`) and a web admin API, and it can be engineer-unlocked
+   (`AT!OPENLOCK` + Sierra keygen, §2.2). But every command that would actually spawn
+   a shell or ADB is hardened off: the `AT!TELEN` (telnetd) and `AT!UDPID=68E2` (ADB
+   composite) setters return `ERROR`, `AT!CUSTOM="ADBENABLE"/"TELNETENABLE"` are
+   accepted but inert, and ADB is suppressed at the USB-composition level
+   (`sys.usb.config` never initialises the ADB endpoints).
+2. **Fastboot bootloader — OPEN (the win).** `AT!RECOVERYHOLD` drops the device into a
+   fastboot mode reporting `unlocked:yes`, `secure:no` and `Device critical unlocked:
+   true` — i.e. the partitions (incl. `system`/`boot`) are flashable (§2.4).
+3. **Therefore the working route is flash-based:** unpack the `system` image, patch the
+   rootfs so a root shell starts unconditionally (strip the `bsinfo -s -n` gate in
+   `/etc/init.d/telnetd`, relax SELinux, and/or start `adbd` + add ADB to the USB
+   composition), repack, and flash a **same-version** image over fastboot. Root telnet
+   (`:23`) and/or ADB then come up on boot.
 
 > Status (2026-08-19): **Bootloader is fastboot-UNLOCKED and fully flashable.**
-> Direct shell/ADB enablers are hardened off by Telstra in the running OS, but the
-> unlocked bootloader gives a viable flash-based path once firmware is sourced.
+> Runtime shell/ADB enablers are hardened off by Telstra; the remaining work is sourcing
+> the NTGX75 firmware to patch and flash (it is not public, and fastboot cannot read
+> partitions).
 
 ---
 
