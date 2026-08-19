@@ -1,0 +1,1351 @@
+﻿
+  
+{
+	
+	
+	
+"lpa": {
+	
+	
+	
+	"eSimPreProvProfileSupported":true,
+	"eSimPreProvProfile":0,
+	"provDataActivationStatus":0,
+	"provDataDeactivationStatus":0,
+	"activeEsimSlot":0,
+	
+	
+	
+	
+	"enabledProfile":0,
+	"primarySimSlot":0,
+	
+	
+	
+	
+	
+	
+	"smdpAddress":"",
+	"totalProfiles":0,
+	"totalUimSlots":0,
+	
+	"eSimBootstrapProfile":0,
+	"eSimHwSupported":false,
+	"eSimSwSupported":false,
+	
+	"end": ""
+}
+
+,
+	
+	
+	
+"lbs": {
+	"supported":true,
+	"enabled":false,
+	"mapService":"Google",
+	"fixAvailable":false,
+	"active":false,
+	"mode":"Continuous",
+	
+	"fixError":0,
+	"fixType":"Unknown",
+	"latitude":"",
+	"longitude":"",
+	"altitude":"",
+	"speed":"",
+	"direction":"",
+	"satelliteCnt":0,
+	"accuracy":"",
+	"fixTime":"",
+	"TCAaccepted":false,
+	"proxyEnable":false,
+	"end":""
+}
+
+,
+	
+	
+"custom": {	
+	"lastWifiChan":13,
+	
+	
+	"hiddenMenuEnabled":false,
+	
+	"hideAdminPassword":false,
+	"carrierSim":"NonCarrier",
+	"end":0
+}
+
+,
+	
+"webd": {
+	"adminPassword":"****************",
+	"ownerModeEnabled":false,
+	"hideAdminPassword":true,
+	
+	
+	"ownerCustomizationsChanged":false,
+	"gcdump":"Str: dsatutil_ex.c\nFmt: DSATUTIL_EX_FATAL at line:%d \nStr: Panicking, remoteproc 4080000.remoteproc-mss crashed\nTimestamp: 2025-11-17 06:05:17\n\nStr: sys_m_smsm_mpss.c\nFmt: err fatal notification received from TZ \n\nStr: nr5g_rrc_acq.c\nFmt: Assert 0 failed: current search status=FALL_BACK Visited flag s\nStr: Panicking, remoteproc 4080000.remoteproc-mss crashed\nTim\n\n",
+	
+		"ownerCustomizationsList": [
+			
+			{}
+		],
+	
+	"end": ""
+}
+
+,
+	
+"ra": {
+	"supported":true,
+	"enabled":true,
+	"uiChoiceSupported":true,	
+	"end": ""
+}
+,
+	
+"lcd": {
+	"backlightEnabled":true,
+	"backlightActive":false,
+	"inactivityTimer":60,
+	"inactivityTimerAC":60,
+	"inactivityTimerUSB":60,
+	"brightnessOnBatt":"Dim",
+	"brightnessOnUSB":"Dim",
+	"brightnessOnAC":"Dim",	
+	"brightnessOnBattIntVal":4,
+	"brightnessOnUSBIntVal":4,
+	"brightnessOnACIntVal":4,
+	"backlightOverride":"Off",
+	"lockScreenEnable":false,
+	"lockScreenUsePin":false,
+		
+	"end": ""
+}
+
+,
+	
+"led": {
+	
+	"end": ""
+}
+,
+	
+"sim": {
+	"pin": {
+		"mode":"Disabled",
+		"retry":3,
+		"end":""
+	},
+	"puk": {
+		"retry":10
+	},
+	"mep": {
+		
+		
+	},
+	
+	
+		
+			 
+				"phoneNumber": "",
+			
+			
+									
+			"iccid":"8961025725401113798", 
+			"imsi":"505025734631650",
+			"SPN":"YES OPTUS",
+	
+	"status":"Ready",
+	"sprintSimLock":0,
+	"gid1bin":"2808F6927F0000005007F6927F000000FC38897F55000000DE00000000000000D600",
+	"gid2bin":"2808F6927F0000005007F6927F000000FC38897F55000000DF00000000000000D600",
+	"specialType":"None",
+	"issuer":"Unknown",
+	"end":""
+}
+,
+	
+"sms": {
+	"ready":true,
+	"sendSupported":false,
+	"sendEnabled":false,
+	"unreadMsgs":0,
+	"alertSupported":false,
+	"alertEnabled":false,
+	"alertNumList":"",
+	
+	
+		"msgCount": 0,
+
+		"msgs": [ 
+		
+		
+			
+			
+		
+			{}
+					
+		],
+		
+
+		
+			"trans": [
+							
+		
+					
+					
+					
+			{}
+		],
+		
+
+	
+		
+		
+	"end": ""
+}
+,
+	"session": {
+	"userRole": "Admin",
+	"lang": "en",
+	
+	"passwordCooloff":0,	
+	"secToken": "REDACTED",
+	
+	"clientIP": "127.0.0.1",
+	 
+	"supportedLangList": [
+	    
+ 	        {
+ 	            "id": "en",
+ 	            "isCurrent": true,
+ 	            "label": "English"
+ 	        },
+ 	    
+ 	{}],
+	"end": ""
+},
+	
+	"general": {
+	
+	"onboardProgressMask":0,
+	"defaultLanguage":"en",
+	"PRIid":"23115905",
+	"activationDate":"0",
+	"genericResetStatus":"NotStarted",
+	"reconditionDate":"0", 
+	"manufacturer":"Netgear, Incorporated",
+	"model":"MR7500",
+	"HWversion":"1.0",
+	"FWversion":"NTGX75_10.04.43.00",		
+	"modemFwVersion":"MPSS.DE.5.0.c7-00227-PINNACLES_ALL_PACK-1.101410.2.129472.3",		
+	"buildDate":"43.00 sdx7",
+	"BLversion":"",
+	"PRIversion":"02.13",
+	"truInstallAvailable":false,
+	"truInstallVersion":"",
+	"IMEI":"REDACTED_IMEI",
+	
+	"InstallID":"FA4ED8B68CDF5FAC544B798C49A19D4E",
+	"SVN":"16",
+	"MEID":"",
+	"ESN":"00000030",
+	"FSN":"REDACTED_FSN",
+	
+	"packageName":"MR7500-1TLAUS_NTGX75_10.04.43.00_TELSTRA_02.13",
+	"productSKU":"MR7500-1TLAUS",
+	"activated":true,
+	
+	"webAppVersion":"M7_Telstra_v07.01.81.00\n",
+	"appVersion": "",
+	"HIDenabled":false,
+	
+	
+	"truInstallEnabled":false,
+	"truInstallSupported":false,
+	"TCAaccepted":true,
+	"LEDenabled":true,
+	"showAdvHelp":true,
+	
+		
+		"keyLockState":"Locked",
+	
+
+	
+
+	"devTemperature":34,
+	"verMajor":43,
+	"verMinor":0,
+	"environment":"Target",
+	"currTime":1471173886,
+	"timeZoneOffset":36000,
+	"userTzOffsetEnabled":false,
+	"userTzOffset":0,
+	"deviceName":"Nighthawk M7 Ultra",
+	"useMetricSystem":true,
+	"factoryResetButtonEnabled":true,
+	"factoryResetLCDSupported":true,
+	"factoryResetStatus":"NotStarted",
+	"SPClockStatus":"SPCLocked",
+	"setupCompleted":true,
+	"warrantyDateCode":"",
+	"languageSelected":true,
+	"uiDateFormat":"DDMMYYYY",
+	"upTime":462,
+	"use24HrTimeFormat":true,
+	
+					
+	 
+		"systemAlertList": 
+		[
+			
+			{}
+		],
+	
+	
+
+	"apiVersion": "2.0",
+	"companyName": "Telstra",
+	
+		"usbDevicesURL": "/Forms/readyshareUsbDevicesInfo",
+		"nwFoldersURL": "/Forms/readyshareNWFoldersInfo",
+		
+	"configURL": "/Forms/config",
+	"profileURL": "/Forms/profile",
+	"pinChangeURL": "/Forms/pinChange",
+	"portCfgURL": "/Forms/portCfg",
+	"portFilterURL": "/Forms/portFilter",
+	"wifiACLURL": "/Forms/wifiACL"
+
+	
+		,"supportedLangList": 
+			[
+				
+					{
+						"id": "en",
+						"isCurrent": "true",
+						"isDefault": "true",
+						"label": "English",
+						"token1": "/romfs/lcd/en.tr",
+						"token2": ""
+					},
+				
+				{}
+			]
+	
+	}
+
+,
+	
+"power": {
+	
+	"PMState":"Online",
+	"SmState":"Online",
+	"battLowThreshold":15,
+	"autoOff" : {
+		"onUSBdisconnect": {
+			"enable":false,
+			"countdownTimer":0,
+			"end":""
+		},
+		"onIdle": {
+			"timer": {
+				"onAC":0,
+				"onBattery":0,	
+				"end": ""		
+			}
+		}
+	},
+	"standby": {
+		
+			"ethernet": {
+				"timer": {
+					"onBattery":120,
+					"end":""
+				}
+			},	
+		
+			
+		"onIdle": {
+			"timer": {
+				"onAC":0,
+				"onBattery":900,
+				"onUSB":0,
+				"end":""
+			}
+		}		
+	},
+	"autoOn": {
+		"enable":true,
+		"end":""
+	},
+		
+	"batteryTemperature":32,
+	"batteryVoltage":4324,
+	"battChargeLevel":100,
+	"battChargeSource":"QuickCharge",
+	"batteryState":"Normal",
+	"battChargeAlgorithm":"Normal",
+	
+	"charging":false,
+	"buttonHoldTime":268435455,
+	"deviceTempCritical":false,
+	"resetreason":1,	
+	"resetRequired":"NoResetRequired",
+	"choiceOnUsb":"NoAction",
+	"actionOnUsb":"ChargeOnly",
+	"batteryTempState":"Normal",
+	"batteryName":"W20b",
+	
+	"wifiOff": {
+		"onUsbConnect":false,
+		"onTethered":false,	
+		"end":""
+	},
+	"ethernetSpeed":"100M",
+	"ethernetDrvEnable":true,
+	"ethernetStatus":"Up",
+
+	
+	"boost": {
+		
+		
+		
+		
+		
+		"cableConnected":false,
+		
+		
+		
+		"end":""
+	},
+	
+	
+	"lpm":false,
+	
+	
+	
+	"end":""
+}
+,
+	
+"wwan": {
+	
+	"prlVersion":0,
+	
+	"bandDisablementMaskLTE":"0000000000000000",
+	"bandDisablementMask":"0000000000000000",
+	"LTEBandPriority":"0",
+	
+	
+	"netScanStatus": "NotStarted",
+	
+		
+	
+	"mtuSize":0,
+	"mtuChangeEnabled":false,
+	"LTEeHRPDConfig":"NotForcedLTEAndeHRPDEnabled",
+	"roamingEnhancedIndicator":0,
+	"roamingMode":"HomeOnly",
+	"roamingGuardDom":"NotForcedDisabled",
+	"roamingGuardIntl":"NotForcedDisabled",
+	"roamingType":"Home",
+	"roamMenuDisplay":false,
+	"thermalState":"Normal",	
+	
+	"ERITestMode":true,
+	"autoBandRegionChanged":false,
+	"5GSaDefault":true,
+	"5GSaEnabled":true,
+	"5GSaShowUiConfig":false,
+	"5GSaSupported":true,
+	"5GSaToggleVisible":false,		
+	"emmRejectCause":0,
+	"esmRejectCause":0,
+	"inactivityCause": "0",
+	"currentNWserviceType": "Nr5gService",
+	"netSelEnabled": "Enabled",
+	"netRegMode": "Auto",	
+	"roaming":false,
+	"IPv6":"",
+	"IP":"10.148.153.43",
+	"registerNetworkDisplay": "YES OPTUS",
+	"RAT": "Auto",	
+	
+	"bandRegion": [ {
+	   	"index": 0,
+	   	"name": "All",
+	   	"current": false
+	}, {
+	   	"index": 1,
+	   	"name": "LTE + 5G NSA",
+	   	"current": false
+	}, {
+	   	"index": 2,
+	   	"name": "LTE",
+	   	"current": false
+	}, {
+	   	"index": 3,
+	   	"name": "Voda AU SA",
+	   	"current": false
+	}, {
+	   	"index": 4,
+	   	"name": "Voda SA Ex n28",
+	   	"current": false
+	}, {
+	   	"index": 5,
+	   	"name": "Ex n28",
+	   	"current": true
+	},{}], 
+
+	 "autoconnect": "HomeNetwork",
+	
+	
+	
+		"profileList": [  {
+					"index": 1, 
+					"id": "apn-1",
+					"name": "Optus",
+					"apn": "connect",
+					"username":"",
+					"password":"",
+					"authtype":"None",	
+					"ipaddr": "0.0.0.0",
+					
+					"access_control": 0,
+					
+					
+						"type": "IPV4V6",
+						"pdproamingtype": "IPV4V6"
+					
+		}, {
+					"index": 2, 
+					"id": "apn-2",
+					"name": "Optus Yes",
+					"apn": "yesinternet",
+					"username":"",
+					"password":"",
+					"authtype":"None",	
+					"ipaddr": "0.0.0.0",
+					
+					"access_control": 0,
+					
+					
+						"type": "IPV4V6",
+						"pdproamingtype": "IPV4V6"
+					
+		}, {
+					"index": 3, 
+					"id": "apn-3",
+					"name": "Optus Business",
+					"apn": "yesbusiness",
+					"username":"",
+					"password":"",
+					"authtype":"None",	
+					"ipaddr": "0.0.0.0",
+					
+					"access_control": 0,
+					
+					
+						"type": "IPV4V6",
+						"pdproamingtype": "IPV4V6"
+					
+		},{}],
+	
+
+	 
+	"profile": {
+		"default": "apn-1", 
+		"defaultLTE": "apn-1", 
+		
+		"promptForApnSelection":false,
+		"end": ""
+	},
+
+	"promptForPwd": "Disabled",	
+
+		
+		
+	"dataUsage": {	
+		"total": {
+			"lteBillingTx":0,
+			"lteBillingRx":0,
+			
+			"cdmaBillingTx":0,
+			"cdmaBillingRx":0,
+			
+			"gwBillingTx":0,
+			"gwBillingRx":0,
+			
+			"lteLifeTx":0,
+			"lteLifeRx":0,
+			
+			"cdmaLifeTx":0,
+			"cdmaLifeRx":0,
+			
+			"gwLifeTx":0,
+			"gwLifeRx":0,
+			
+			"end": ""
+		},
+
+		"server": {
+			"accountType":"",
+			"subAccountType":"",
+
+			"end": ""
+		},
+		"remote": {
+			"enabled":true,
+			"end": ""
+		},
+		
+
+		"serverDataRemaining":0,
+		"serverDataTransferred":0,
+		"serverDataTransferredIntl":0,
+		"serverDataValidState":"Invalid",
+		"serverDaysLeft":0,
+		"serverErrorCode":"",
+		"serverLowBalance":false,
+		"serverMsisdn":"",
+		"serverRechargeUrl":"",
+		"dataWarnEnable":false,
+		"planSize":0,
+		"planDescription":"",
+		"prepaidStackedPlans":0,
+		"prepaidStackedPlansIntl":0,
+		
+		
+	
+		
+			"prepaidAccountState": "Unknown",
+		
+		
+			"accountType": "Unknown",
+		
+		"disableAutoReset":false,
+		
+		"share": {
+			"enabled":false,
+			"dataTransferredOthers":0,
+			
+			"lastSync": "0",
+			"end": ""
+		},
+		"generic": { 
+			"dataLimitValid":false,
+			"usageHighWarning":0,
+			"fallbackSupported":true,
+			"lastSucceeded": "1452231530",	
+			"billingDay": 15,
+			"nextBillingDate": "1473429600",
+			"lastSync": "1452231530",
+			
+			 
+				 "billingCycleRemainder": "2255713",
+			
+			
+			"billingCycleLimit": 0,
+			"dataTransferred": 361645264,
+			"dataTransferredRoaming": 0,
+			
+			"lastReset":"0",
+			
+			
+			"userDisplayFormat":"BillingCycle",
+			
+			"end":""
+		}
+	},
+	 
+		"dataTransferred": "8881555",
+		"dataTransferredRx": "3169350",
+		"dataTransferredTx": "5712205",
+	
+	"netManualNoCvg": false,
+	"connection": 	   	"Connected",
+	"connectionType":"IPv4Only",
+	"currentPSserviceType":		"5GSUB6",
+	"ca": {
+		
+			"SCCcount":2,
+			
+		
+			"SCClist": [
+				
+				{
+					"cellid": "198", 
+					"dlchan": "299", 
+					"sigrsrp": "0", 
+					"sigrsrq": "0"
+				},
+				
+				{
+					"cellid": "198", 
+					"dlchan": "1725", 
+					"sigrsrp": "0", 
+					"sigrsrq": "0"
+				},
+				
+				{}
+				],
+			
+		"end":""
+	},
+	"connectionText":	"5G",
+	"sessDuration": 	413,
+	"sessStartTime": 	1471173474,
+
+	"signalStrength": {
+		"rssi":-66,
+		"rscp":-32768,
+		"ecio":-32768,
+		"rsrp":-103,
+		"rsrq":-13,
+		"bars":3,
+		"sinr":3,
+		"nr5gRsrp":-103,
+		"nr5gRsrq":-12,
+		"nr5gSinr":6,
+		"end":""
+	},
+	
+		
+
+	"diagInfo": [  {		
+		"lteAttached": true,
+		"nr5gAttached": true,
+		"endcEnabledConfig": true,
+		"ltesigValid":true,		
+		"ltesigRssi":"-66 dBm",	
+		"ltesigRsrp": "-103 dBm",
+		"ltesigRsrq": "-13 dB",
+		"ltesigSnr": "3 dB",
+		"nr5gsigValid": true,
+		"nr5gsigRsrp": "-103 dBm",
+		"nr5gsigRsrq": "-12 dB",
+		"nr5gsigSnr": "6 dB"		
+	},{}],
+	
+
+	"lteBandInfo": [  {		
+		"isPcc": true,
+		"sccId": 0,
+		"sccState": 0,
+		"band":7,		
+		"channel":"3350",	
+		"phyCid": "198",
+		"dlBandwidth": "20MHz",
+		"sccUlCaEnabled": "false",
+		"sccUlChannel": 0,
+		"sccUlBandwidth": "0"
+	}, {		
+		"isPcc": false,
+		"sccId": 1,
+		"sccState": 1,
+		"band":1,		
+		"channel":"299",	
+		"phyCid": "198",
+		"dlBandwidth": "20MHz",
+		"sccUlCaEnabled": "false",
+		"sccUlChannel": 0,
+		"sccUlBandwidth": "0"
+	}, {		
+		"isPcc": false,
+		"sccId": 2,
+		"sccState": 1,
+		"band":3,		
+		"channel":"1725",	
+		"phyCid": "198",
+		"dlBandwidth": "15MHz",
+		"sccUlCaEnabled": "false",
+		"sccUlChannel": 0,
+		"sccUlBandwidth": "0"
+	},{}],
+
+
+	"nr5gBandInfo": [  {		
+		"isPcc": true,
+		"sccId": 0,
+		"sccState": 0,
+		"band":78,		
+		"channel":"633312",	
+		"phyCid": "198",
+		"dlBandwidth": "100MHz",
+		"sccUlCaEnabled": "false",
+		"sccUlChannel": 0,
+		"sccUlBandwidth": "0"
+	},{}],
+
+		
+	
+	"laa": {
+		"supported":false,
+		"enabled":false,
+		"end":""
+	}
+}
+,
+	
+"wwanadv": {
+	"curBand":"LTE B7",
+	"radioQuality":54,
+	"country":"AUS",
+	"RAC":0,
+	"LAC":52010,
+	"MCC":"505",
+	"MNC":"02",
+	"MNCFmt":2,
+	"cellId":36224315,
+	"chanId":3350,
+	"primScode":-1,
+	"plmnSrvErrBitMask":0,
+	"chanIdUl":21350,
+	"txLevel":17,
+	"rxLevel":-103,
+	"end":""	
+}
+
+,
+	
+"ecap": {
+	
+	
+			
+	"end":""
+}
+
+,
+	
+		
+"ethernet": {
+	"mac":"34-98-B5-80-EB-D1",
+	"speedMax":"1000M",
+	
+	  
+	
+		"offload": {
+			"supported":true,
+			"enabled":true,
+			"on":false,
+			"ipv4Addr":"0.0.0.0",
+			"ipv6Addr":"0000:0000:0000:0000:0000:0000:0000:0000",
+			"rx":0,
+			"tx":0,
+			"timeOn":0,
+			"gatewayChanged":false,
+			"end":""
+		},
+	
+	"ethusb": {
+		"lan1Mode":"WAN",
+		"lan2Mode":"LAN",
+		"dongleMode":"LAN",
+		"usbEthAttach":"None",
+		"ethWanActive":false,
+		"wanOn":false,
+		"wanIpv4Addr":"0.0.0.0",
+		"wanIpv6Addr":"0000:0000:0000:0000:0000:0000:0000:0000",
+		"wanRx":0,
+		"wanTx":0,
+		"wanTimeOn":0,
+		"usbEthUiSupported":true,
+		"end": ""
+	}
+}
+,
+	
+	
+"wifi": {
+		
+		
+		"supported":"PrimaryGuestAux",
+		
+		"enabled":true,
+		"status":"On",
+		"mode":"M802_11_ANAX",
+		
+		"maxClientSupported":64,
+		"maxClientLimit":64,
+		"maxClientCnt":64,
+		"encryption":"WPA2_WPA3",
+		"channel":0,
+		"2gBandwidth":"HT20",
+		"5gBandwidth":"VHT160",
+		"6gBandwidth":"VHT160",
+		"txPower":"Short",
+		"txPowerACConfig":"Extended",
+		"hiddenSSID":false,
+		"passPhrase":"REDACTED_WIFI_PW",
+		"passwordReminder":true,
+		"RTSthreshold":2347,
+		"fragThreshold":2346,
+		"accessControl":"None",
+		"SSID":"lightpath_m",
+		"wmmEnabled":true,
+		"5g160MSupported":true,
+		"MAC":"34-98-B5-80-EB-CD",
+	
+		"SSIDreminder":false,
+		"clientCount":0,
+		"country":"AU",
+		"privacy":false,
+		"2gMcsChanList":"1 2 3 4 5 6 7 8 9 10 11 12 13",
+		"5gMcsChanList":"36 40 44 48",
+		"5gMcs160MChanList":"36 40 44 48 52 56 60 64",
+		"6gMcsChanList":"1 5 9 13 17 21 25 29 33 37 41 45 49 53 57 61 65 69 73 77 81 85 89 93",
+		"6eSupported":"SAPSTA",
+		"6eSapEnabled":true,
+		"6eStaEnabled":true,
+		"6eNoACSupported":true,
+		"6eMccAllowed":"Disabled",
+		"show6gAlert":true,		
+		"wps": {
+			"supported":"Disabled",
+			"enabled":"Disabled",
+			"blocked":false,
+			"mode":"PBC",
+			"status":"Succeeded",
+			"end":""
+		},
+		"guest": {
+			"maxClientCnt":63,
+			"enabled":true,
+			"status":"On",
+			"encryption":"WPA3_Personal_AES",
+			"SSID":"lightpath_m",
+			"passPhrase":"REDACTED_WIFI_PW",
+			"generatePassphrase":false,
+			"accessProfile":"Full",
+			"hiddenSSID":false,
+			"timerEnable":false,
+			"timerTimestamp":0,
+			"timerValue":3600,
+			"privacy":false,
+			"chan": 0,
+			"mode": "M802_11_6EBE",
+			"DHCP": {
+				"range": {
+					"high":"192.168.2.99",
+					"low":"192.168.2.20",
+					"end":""
+				}
+			}		
+		},
+		
+		"aux": {
+			"enabled":false,
+			"AuxMode":"Off",
+			
+			"SSID":"lightpath_m-Guest",
+			"hiddenSSID":false,
+			"encryption":"WPA2_WPA3",
+			"passPhrase":"",
+			"maxClientCnt":10,
+			"status":"Off",
+			"chan":0,
+			"mode":"M802_11_ANAX",
+			
+			
+			
+			
+			"end":""
+		},
+		"backup": {
+			"txPower":"Short",
+			"preferredProfile":"Dual7",
+			"end":""
+		},
+	
+		
+		"offload": {
+			"activationRequired":false,
+			"bars":0,
+			"enabled":false,
+			"rssi":0,
+			"securityStatus":"Disconnected",
+			"status":"Off",
+			"supported":true,
+			"connectionSsid":"",
+			"scanProgress":"Idle",
+			"stationIPv4":"0.0.0.0",
+			"timeOn":0,
+			"dataTransferred": {
+				"rx":0,
+				"tx":0,
+				"end": ""
+			},
+			
+  				"networkList": [		
+						
+	  				{}
+	  			],	
+  			
+  			
+  				"scanList": [		
+						
+	  				{}
+	  			],	
+  			
+			"end":""
+		},
+		
+
+		
+		"accessBlackList": [
+					
+  				{}
+  			],
+  		
+  		
+  		"accessWhiteList": [
+		
+					
+  				{}
+  			],	
+  			
+ 
+	 	
+"end":""	
+}
+,
+	
+"router": {
+	
+	
+	"gatewayIP":"192.168.1.1",
+	"DMZaddress":"192.168.1.4",
+	"DMZenabled":false,
+	"forceSetup":false,
+	"DHCP": {
+		"serverEnabled":true,
+		"DNS1":"1.1.1.1",
+		"DNS2":"8.8.8.8",
+		"DNSmode":"Manual",
+		"USBpcIP":"192.168.1.4",
+		
+		"range": {
+			"high":"192.168.1.199",
+			"low":"192.168.1.20",
+			"end": ""
+		}
+	},
+	"usbMode":"None",
+	"usbNetworkTethering":true,
+	"portFwdEnabled":false,
+	"usbTetheringActive":false,
+	"DnsRebindProtection":true,	
+	
+		"portFwdList": [
+			
+			{}
+		],
+		
+		"portFwdAllowEntry":50,
+		
+	
+	
+	"portFilteringEnabled":false,
+	"portFilteringMode":"None",
+	"portFilteringSupported":true,	
+	
+		"portFilterWhiteList": [
+		
+		{}
+		],
+	
+	
+	
+		"portFilterBlackList": [
+		
+		{}
+		],
+		
+	
+
+		
+		 				
+			"clientList": [
+					
+	     				{
+	     					"IP": 	"192.168.1.4",
+	     					"MAC": 	"00:A0:C6:00:00:00",
+	     					"name": "Davids-XPS",
+	     					"onUSB": true,
+	     					"source": "USB"
+	     				},
+	  					
+	  				{}
+	  			],	
+		
+	
+		
+	
+		"ipPassThroughHostPcType":1,	
+		"ipPassThroughHostPcMac":"00-00-00-00-00-00",
+		"ipPassThroughHostPcName":"",
+	
+	
+		
+	"hostName":"mywebui",
+	"domainName":"net",
+	"ipPassThroughEnabled":false,
+	"ipPassThroughSupported":true,
+	"VPNpassthrough":true,
+	"usbTetherSupported":true,
+
+	"netMask":"255.255.255.0",
+	"bridgeLanNetMask":"255.255.255.255",
+	
+		"Ipv6Supported":true,
+	
+	"UPNPsupported":true,
+	"UPNPenabled":false,
+	"UPNPIgdVersion":2,
+	
+		"SipAlg":true,
+	
+
+"end":""
+
+}
+
+,
+	
+"fota": {
+	"fwupdater": {
+		"available":false,
+		"chkallow":true,
+		"chkstatus":"Initial",
+		"dloadProg":0,
+		"error":false,
+		"lastChkDate":1471171495,
+		"state":"NoNewFw",
+		"isPostponable":false,
+		"statusCode":200,		
+		"chkTimeLeft":0,		
+		"dloadSize":0,
+		"isRejectable":false,
+		"description":"",
+		"isAcceptable":false,
+		
+		"timeToStartInstall":-1,
+		"end": ""
+	},
+	"webupdater": {
+		"autoDload":true,
+		"autoUpdate":false,
+		"end": ""
+	}
+}
+
+,
+	
+"failover": {
+	
+	"enabled":true,
+	"backhaul":"LTE",
+	"supported":true,
+	"monitorPeriod":10,
+	"wanConnected":false,
+	"keepaliveEnable":true,
+	"keepaliveSleep":15,
+	
+		"ipv4Targets": [
+			
+				{
+					"id":"0",
+					"string":"8.8.8.8"
+				},
+			
+			{}
+		],
+	
+	
+		"ipv6Targets": [
+			
+			{}
+		],
+	
+	"end": ""
+}
+,
+	
+		
+"cradle": {
+	"mode":false,
+	"smartMode":false,
+	"url":"",
+	"primarySSID":"",
+	"primaryPassphrase":"",
+	"secondarySSID":"",
+	"secondaryPassphrase":"",
+	"autoIPT":false,
+	"end": ""
+}
+
+,
+	
+	
+"eventlog": {
+	"level":0,
+	"logDuration":0,
+	
+	"catLevel": [  {
+		"category": "AccessWebUI",
+		"catlevel_mask": 0,
+		"enabled": false
+		},
+		 {
+		"category": "RouterOperations",
+		"catlevel_mask": 0,
+		"enabled": false
+		},
+		 {
+		"category": "PortFwdTrigger",
+		"catlevel_mask": 0,
+		"enabled": false
+		},
+		 {
+		"category": "WirelessAccess",
+		"catlevel_mask": 0,
+		"enabled": false
+		},
+		 {
+		"category": "CallStatus",
+		"catlevel_mask": 0,
+		"enabled": false
+		},
+		 {
+		"category": "Startup",
+		"catlevel_mask": 0,
+		"enabled": false
+		},
+		 {
+		"category": "OperatorSvc",
+		"catlevel_mask": 0,
+		"enabled": false
+		},
+		 {
+		"category": "ConfigChange",
+		"catlevel_mask": 0,
+		"enabled": false
+		},
+		
+		{}
+	],
+	
+	"end":0
+}
+
+,
+	
+"ui": {	
+	"serverDaysLeftHide":false,
+	"promptActivation":true,
+	"stealthEnabled":false,
+	"disableSettingsOnLCD":false,
+	"nvupRebootRequired":false,
+	"end":0
+}
+
+	
+		,
+"accesscontrol": {
+		
+		"nlpc": {
+			"filterLevel":"None",
+			"enabled":false,
+			"username":"",
+			
+			"macList": [ {}],
+			
+			"end":0
+		},
+	
+		
+		"blocksites": {
+			"enabled":false,
+			"macMode":"Blacklist",
+			
+			"macList": [ {}],
+			
+			"patternMode":"Blacklist",
+			
+			"patternList": [ {}],
+			
+			"end":0
+		},
+	
+	
+		"schedulerBlockingActive":false,
+		
+			"schedulerSupported":true,
+			
+				"schedulerEnabled":false,
+				"schedulerDefaultMode":"WwanOn",
+					
+				"schedulerList": [{}],
+				
+			
+		
+	
+	"end":0
+}
+
+
+	
+	
+		,
+"ready": {	
+	"shareSupported":false,
+	"shareEnabled":false,
+	"cloudSupported":false,
+	"cloudEnabled":false,
+	
+	"deviceShare": {
+		"networkDeviceName":"readyshare",
+		"workgroupName":"workgroup",
+		"removeUsbDeviceResult":"None",
+		
+		"extMediaSupported":false,
+		
+			"usbDevicesInfo": [{}],
+		
+		
+		
+			"nwFoldersInfo": [{}],
+		
+		
+		
+		
+		"end": 0
+	},
+	
+	"cloud": {
+		"registrationStatus":"Unregistered",
+		"end": 0
+	}
+}
+
+	
+	
+	
+		,
+"insight": {	
+	"supported":true,
+	"enabled":true,
+	"active":false,
+	"version":"25.11.53.1",	
+	"end": ""
+}
+
+
+	
+	
+}
+

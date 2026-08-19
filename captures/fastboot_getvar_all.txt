@@ -1,0 +1,99 @@
+﻿== getvar:all ==
+  INFOparallel-download-flash:no
+  INFOhw-revision:10000
+  INFOunlocked:yes
+  INFOoff-mode-charge:0
+  INFOcharger-screen-enabled:0
+  INFObattery-soc-ok:yes
+  INFObattery-voltage:3700
+  INFOversion-baseband:
+  INFOversion-bootloader:
+  INFOerase-block-size: 0x40000
+  INFOlogical-block-size: 0x1000
+  INFOvariant:SDX NAND
+  INFOpartition-type:ntgfota:raw
+  INFOpartition-size:ntgfota: 0x37E80000
+  INFOpartition-type:ntgrpersist:raw
+  INFOpartition-size:ntgrpersist: 0xF00000
+  INFOpartition-type:cust:raw
+  INFOpartition-size:cust: 0x7C0000
+  INFOpartition-type:hdata:raw
+  INFOpartition-size:hdata: 0x6B80000
+  INFOpartition-type:userrw:raw
+  INFOpartition-size:userrw: 0x4B80000
+  INFOpartition-type:pad1:raw
+  INFOpartition-size:pad1: 0x1780000
+  INFOpartition-type:system:ext4
+  INFOpartition-size:system: 0x1D640000
+  INFOpartition-type:usb_qti:raw
+  INFOpartition-size:usb_qti: 0x80000
+  INFOpartition-type:cpucpfw:raw
+  INFOpartition-size:cpucpfw: 0x80000
+  INFOpartition-type:shrm:raw
+  INFOpartition-size:shrm: 0x80000
+  INFOpartition-type:qupfw:raw
+  INFOpartition-size:qupfw: 0x80000
+  INFOpartition-type:ipa_fw:raw
+  INFOpartition-size:ipa_fw: 0x80000
+  INFOpartition-type:sec:raw
+  INFOpartition-size:sec: 0x80000
+  INFOpartition-type:recoveryfs:raw
+  INFOpartition-size:recoveryfs: 0x1000
+  INFOpartition-type:fota:raw
+  INFOpartition-size:fota: 0x1000
+  INFOpartition-type:recovery:raw
+  INFOpartition-size:recovery: 0x1000
+  INFOpartition-type:devinfo:raw
+  INFOpartition-size:devinfo: 0x100000
+  INFOpartition-type:misc:raw
+  INFOpartition-size:misc: 0x140000
+  INFOpartition-type:modem:raw
+  INFOpartition-size:modem: 0x8A80000
+  INFOpartition-type:scrub:raw
+  INFOpartition-size:scrub: 0x4200000
+  INFOpartition-type:boot:raw
+  INFOpartition-size:boot: 0x3EC0000
+  INFOpartition-type:uefi:raw
+  INFOpartition-size:uefi: 0x400000
+  INFOpartition-type:abl:raw
+  INFOpartition-size:abl: 0x80000
+  INFOpartition-type:qhee:raw
+  INFOpartition-size:qhee: 0x180000
+  INFOpartition-type:aop_devcfg:raw
+  INFOpartition-size:aop_devcfg: 0x80000
+  INFOpartition-type:aop:raw
+  INFOpartition-size:aop: 0x80000
+  INFOpartition-type:multi_qti:raw
+  INFOpartition-size:multi_qti: 0x80000
+  INFOpartition-type:multi_oem:raw
+  INFOpartition-size:multi_oem: 0x80000
+  INFOpartition-type:xbl_ramdump:raw
+  INFOpartition-size:xbl_ramdump: 0x180000
+  INFOpartition-type:xbl_config:raw
+  INFOpartition-size:xbl_config: 0x100000
+  INFOpartition-type:apdp:raw
+  INFOpartition-size:apdp: 0x80000
+  INFOpartition-type:ddr_debug:raw
+  INFOpartition-size:ddr_debug: 0x100000
+  INFOpartition-type:ddr:raw
+  INFOpartition-size:ddr: 0x1000
+  INFOpartition-type:keymaster:raw
+  INFOpartition-size:keymaster: 0x80000
+  INFOpartition-type:cmnlib64:raw
+  INFOpartition-size:cmnlib64: 0x100000
+  INFOpartition-type:tz_devcfg:raw
+  INFOpartition-size:tz_devcfg: 0x80000
+  INFOpartition-type:tz:raw
+  INFOpartition-size:tz: 0x3C0000
+  INFOpartition-type:efs2:raw
+  INFOpartition-size:efs2: 0x15C0000
+  INFOpartition-type:mibib:raw
+  INFOpartition-size:mibib: 0x200000
+  INFOpartition-type:sbl:raw
+  INFOpartition-size:sbl: 0x380000
+  INFOsecure:no
+  INFOserialno:REDACTED_SERIAL
+  INFOproduct:sdxpinn
+  INFOmax-download-size:966369280
+  INFOkernel:uefi
+  OKAY

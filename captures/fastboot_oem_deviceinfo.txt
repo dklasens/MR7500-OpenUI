@@ -1,0 +1,6 @@
+== oem device-info ==
+  INFOVerity mode: true
+  INFODevice unlocked: true
+  INFODevice critical unlocked: true
+  INFOCharger screen enabled: false
+  OKAY
