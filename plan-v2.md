@@ -115,9 +115,28 @@ metahumanflash/mr7400 confirms ADB on the same platform — determine *how*
 
 ## 4. Tooling TODO
 
-- [ ] `fb_cmd.py`: `download:` + `boot:` support (vector 2.1)
-- [ ] `fb_cmd.py`: OEM command fuzz mode (vector 2.4)
-- [ ] Injection sweep script for untested config keys (vector 2.3)
-- [ ] Full-port TCP/UDP scanner (vector 2.5)
-- [ ] Archive `AT!CUSTOM?` full flag list to `captures/` (vector 2.7)
-- [ ] `AT!SECBOOTCFG?` / `AT!SECBOOTPKHASH?` capture (README §4 open item 3)
+- [x] `fb_cmd.py`: `download:` + `boot:` support (vector 2.1) — `--boot IMG` / `--download IMG`
+- [x] `fb_cmd.py`: OEM command fuzz mode (vector 2.4) — `--fuzz-oem [--aggressive]`
+- [x] Injection sweep script for untested config keys (vector 2.3) — `tools/inject_sweep.py` (dry-run by default, `--fire` to import)
+- [x] Full-port TCP/UDP scanner (vector 2.5) — `tools/full_scan.py` (65535 TCP + SSDP/mDNS + optional IPv6)
+- [x] Archive `AT!CUSTOM?` full flag list to `captures/` (vector 2.7) — `tools/at_capture.py --preset custom`
+- [x] `AT!SECBOOTCFG?` / `AT!SECBOOTPKHASH?` capture (README §4 open item 3) — `tools/at_capture.py --preset secboot`
+
+### 4.1 Notes on the new tooling
+
+- **`fb_cmd.py`** is now argparse-driven but still back-compatible with the old
+  positional form (`python fb_cmd.py getvar:all "oem device-info"`). `--boot`
+  implements the full `download:%08x` → DATA → bulk-write → `boot` handshake, so
+  2.1 can be tried the moment a donor `boot` image (e.g. from an MR7400) exists —
+  RAM-only, nothing flashed. The OEM fuzz list splits read-only probes from
+  state-changing ones (`oem edl`, `flashing unlock`, `continue`, …); the latter
+  are skipped unless `--aggressive`, and the loop stops on the first device drop.
+- **`inject_sweep.py`** payloads are OOB-callback only (`wget`/`curl` to
+  `tools/listener.py`); no destructive commands. Values are URL-encoded so the
+  import-time URL-decode restores `$( )`, backticks, `;`, `|` and smuggled
+  newlines (`%0A`) at the sink. Dry-run writes every crafted `.cfg` for review;
+  `--fire` imports and reboot-polls between cases. The feature-flag flips
+  (`ui.demoMode`, `webd.ownerModeEnabled`, `sms.sendEnabled`, …) are intentionally
+  left out of the automated sweep — set those deliberately with `import_cfg.py`.
+- **`full_scan.py`** is a threaded connect scan; raise `--workers` for speed, and
+  pass `--ipv6 "<addr>%<zone>"` once the device's link-local address is known.

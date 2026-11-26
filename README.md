@@ -139,6 +139,10 @@ route (patch rootfs) now that the bootloader is unlocked.
 - `web_login.py` / `dump_internal.py` / `get_config.py` / `import_cfg.py` / `inject_hostname.py` â€” web API + config export/import + injection test.
 - `recoveryhold.py` â€” enter fastboot (`AT!RECOVERYHOLD`).
 - `usb_enum.py` / `fb_client.py` / `fb_cmd.py` â€” libusb fastboot client (use instead of fastboot.exe).
+  `fb_cmd.py` also does `--boot`/`--download` (RAM-boot, vector 2.1) and `--fuzz-oem` (vector 2.4).
+- `inject_sweep.py` â€” config-import injection sweep across untested keys Ã— payload styles (vector 2.3; dry-run by default).
+- `full_scan.py` â€” full 65535-port TCP + SSDP/mDNS UDP (+ optional IPv6) scan (vector 2.5).
+- `at_capture.py` â€” archive AT console output to `captures/` (`--preset custom` / `--preset secboot`).
 - `map_endpoints.py` / `map_import.py` / `find_backup.py` / `profile_flow.py` â€” web recon.
 - `listener.py` â€” local callback HTTP listener (for injection OOB detection).
 
